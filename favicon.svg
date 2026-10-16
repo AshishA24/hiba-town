@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Hiba Town">
+  <defs>
+    <clipPath id="tile"><rect width="32" height="32" rx="7"/></clipPath>
+  </defs>
+  <g clip-path="url(#tile)">
+    <rect width="32" height="32" fill="#1A1B4B"/>
+    <path fill="#FF9E7D" d="M2 17 16 5 30 17H2z"/>
+    <rect x="6" y="16.5" width="20" height="16" fill="#8B5A2B"/>
+    <rect x="15" y="13" width="2" height="3.4" fill="#F4A7B9"/>
+    <circle cx="16" cy="21.4" r="3.2" fill="#FFD194"/>
+    <circle cx="16" cy="21.4" r="1.4" fill="#FFF6E8"/>
+  </g>
+</svg>
