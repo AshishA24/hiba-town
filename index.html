@@ -293,7 +293,7 @@ button.again:active { transform: translateY(2px); box-shadow: 0 4px 0 #7a2e2a; }
     <span class="pill" id="mult" hidden>Combo x1</span>
   </div>
   <div class="meter" id="meter">
-    <span id="kind-label">Kindness</span>
+    <span id="kind-label">Glow</span>
     <div class="track" role="meter" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="kind-meter"><div class="fill" id="kind-fill"></div></div>
     <span id="kind-pct">0%</span>
   </div>
@@ -310,7 +310,7 @@ button.again:active { transform: translateY(2px); box-shadow: 0 4px 0 #7a2e2a; }
   <div class="card" id="panel-start">
     <p class="eyebrow">Golden hour rooftop hop</p>
     <p class="prompt">Tap or press Space to hop!</p>
-    <p class="hint">Hold a moment for a higher float. Tap again in the air to twirl. Chimneys and balloons give you a lift.</p>
+    <p class="hint">Hold for a higher hop. Tap again in the air to twirl. Lanterns fill your Glow — a full bar brings twilight and double points.</p>
   </div>
   <div class="card" id="panel-over" hidden>
     <h2>End of Run</h2>
@@ -1925,7 +1925,7 @@ button.again:active { transform: translateY(2px); box-shadow: 0 4px 0 #7a2e2a; }
     c.textAlign = "center";
     c.fillText("Twilight", W / 2, H * 0.34);
     c.font = "600 " + Math.round(16 * U) + "px Quicksand, sans-serif";
-    c.fillText("kindness doubled the stars", W / 2, H * 0.34 + 28 * U);
+    c.fillText("every lantern pays double", W / 2, H * 0.34 + 28 * U);
     c.restore();
   }
   function drawVignette(c) {
@@ -1993,7 +1993,7 @@ button.again:active { transform: translateY(2px); box-shadow: 0 4px 0 #7a2e2a; }
         kindPct.textContent = Math.ceil(twilightLeft) + "s";
         meterEl.classList.add("twilight");
       } else {
-        kindLabel.textContent = "Kindness";
+        kindLabel.textContent = "Glow";
         kindPct.textContent = k + "%";
         meterEl.classList.remove("twilight");
       }
